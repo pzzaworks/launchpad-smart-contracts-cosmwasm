@@ -1,0 +1,29 @@
+{
+  "name": "launchpad-smart-contracts-cosmwasm-cw20",
+  "author": "Berke (pzzaworks)",
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "bun-types": "^1.0.29"
+  },
+  "peerDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@cosmjs/cosmwasm-stargate": "^0.32.2",
+    "@cosmjs/math": "^0.32.4",
+    "@cosmjs/proto-signing": "^0.32.2",
+    "@cosmjs/stargate": "^0.32.2",
+    "@marp-team/marp-cli": "^3.4.0",
+    "@nibiruchain/nibijs": "^4.0.0",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "merkletreejs": "^0.3.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "deploy": "ts-node ./scripts/deploy/deploy.ts",
+    "interact": "ts-node ./scripts/interact/interact.ts"
+  }
+}
